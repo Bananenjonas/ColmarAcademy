@@ -1,4 +1,39 @@
 /*Navigation*/
+#navigation {
+  display: flex;
+  width: auto;
+  height: 64px;
+  justify-content: space-between;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logotext {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#academy  {
+  color: grey;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav p {
+  margin-right: 16px;
+}
+
+#nomargin {
+  margin-right: 0;
+}
 
 /*First Banner*/
 
