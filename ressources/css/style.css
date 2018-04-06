@@ -85,16 +85,18 @@ nav p {
 /*Second Banner*/
 #secondbanner {
   display: flex;
+  vertical-align: baseline;
 }
 
 #leftsecondbanner {
   display: flex;
   flex-direction: column;
-  margin-left: 24px
+  margin-left: 24px;
+  width: 60%;
 }
 
 #leftsecondbanner img {
-  width: 60%;
+  width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -116,8 +118,51 @@ nav p {
 }
 
 #rightsecondbanner  {
-
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 24px;
+  border-left: 1px solid lightgrey;
+  align-items: flex-start;
 }
+
+.news {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid lightgrey;
+}
+
+.rightnews  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news img {
+  width: 35%;
+  height: 35%;
+  margin: 16px;
+}
+
+.rightnews h3  {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.rightnewstext  {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.readmore {
+  color: blue;
+}
+
+#guest  {
+  background-color: lightgrey;
+  margin-bottom: 32px;
+}
+
 /*Third Banner*/
 
 /*Forth Banner*/
