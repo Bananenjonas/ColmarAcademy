@@ -83,7 +83,41 @@ nav p {
 }
 
 /*Second Banner*/
+#secondbanner {
+  display: flex;
+}
 
+#leftsecondbanner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px
+}
+
+#leftsecondbanner img {
+  width: 60%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#leftsecondbanner h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#quote  {
+  font-style: italic;
+}
+
+#position {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 0.9rem;
+}
+
+#rightsecondbanner  {
+
+}
 /*Third Banner*/
 
 /*Forth Banner*/
