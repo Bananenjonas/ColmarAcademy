@@ -83,19 +83,19 @@ h1  {
 }
 
 /*Second Banner*/
-#secondbanner {
+.secondbanner {
   display: flex;
   vertical-align: baseline;
 }
 
-#leftsecondbanner {
+.leftsecondbanner {
   display: flex;
   flex-direction: column;
   margin-left: 24px;
   width: 60%;
 }
 
-#leftsecondbanner img {
+.leftsecondbanner img {
   width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -107,17 +107,17 @@ h2 {
   margin-bottom: 24px;
 }
 
-#quote  {
+.quote  {
   font-style: italic;
 }
 
-#position {
+.position {
   margin-top: 32px;
   margin-bottom: 32px;
   font-size: 0.9rem;
 }
 
-#rightsecondbanner  {
+.rightsecondbanner  {
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -171,7 +171,7 @@ h3  {
   flex-direction: column;
 }
 
-#thirdbanner h2 {
+.specialheader {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -232,5 +232,15 @@ h3  {
 
 
 /*Forth Banner*/
+#forthbanner  {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+.banners  {
+  display: flex;
+  flex-direction: row;
+}
 
 /*Copyright*/
