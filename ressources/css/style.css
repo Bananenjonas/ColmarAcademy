@@ -213,6 +213,23 @@ h3  {
   text-transform: uppercase;
 }
 
+.space  {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.description  {
+  padding-bottom: 1rem;
+}
+
+#nopadding  {
+  padding-bottom: 0;
+}
+
+#marginbottom {
+  margin-bottom: 32px;
+}
+
 
 /*Forth Banner*/
 
