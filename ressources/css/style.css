@@ -39,6 +39,33 @@ body  {
   background-color: #b1040e;
 }
 
+#iconnav  {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+    #navigation {
+      background-color: white;
+      width: 100%;
+    }
+
+    #logo img,
+    #logo p,
+    nav p {
+      display: none;
+    }
+
+    #iconnav  {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    #iconnav p  {
+      display: flex;
+    }
+}
+
 #logo {
   display: flex;
   align-items: center;
@@ -63,6 +90,10 @@ nav p {
   color: white;
 }
 
+@media screen and (max-width: 480px) {
+
+}
+
 #nomargin {
   margin-right: 0;
 }
@@ -73,14 +104,6 @@ nav p {
   background-color: #F9F6EF;
 }
 
-#firstbannerimg  {
-  display: flex;
-  width: 50%;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
 
 #firstbannerright {
   display: flex;
@@ -108,6 +131,20 @@ h1  {
   font-weight: normal;
   font-size: 1.25rem;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  #firstbanner  {
+    flex-wrap: wrap;
+  }
+
+  #button {
+    width: 90%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+
 }
 
 /*Second Banner*/
@@ -194,6 +231,48 @@ h3  {
 .guest  {
   background-color: #F9F6EF;
   margin-bottom: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .leftsecondbanner {
+    width: 100%;
+    margin-left: 0;
+}
+  .rightsecondbanner {
+    width: 100%;
+    margin-left: 16px;
+    padding-top: 32px;
+    border: none;
+  }
+
+  .leftsecondbanner img {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h1  {
+    margin-bottom: 32px;
+  }
+
+  #secondbannermain {
+    display: none;
+  }
+
+  .news {
+    border-bottom:  none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .news img {
+    max-width: 100%;
+   height: auto;
+   display: block;
+   max-height: 100%;
+   width: auto;
+
+  }
 }
 
 /*Third Banner*/
