@@ -139,9 +139,11 @@ h1  {
   }
 
   #button {
-    width: 90%;
+    width: 92%;
     margin-top: 24px;
     margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -237,6 +239,7 @@ h3  {
   display: none;
 }
 
+
 @media screen and (max-width: 480px) {
   .leftsecondbanner {
     width: 100%;
@@ -283,8 +286,23 @@ h3  {
     display: flex;
   }
 
-  .desktop  {
+  .news .desktop  {
     display: none;
+  }
+
+  .rightnews  {
+    margin-left: 32px;
+    margin-bottom: 64px;
+  }
+
+  .guest  {
+    background-color: white;
+  }
+
+  #differentspacing {
+    margin-bottom: 0;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #F9F6EF;
   }
 }
 
