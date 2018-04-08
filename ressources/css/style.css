@@ -270,3 +270,16 @@ h3  {
 }
 
 /*Copyright*/
+#copy {
+  padding: 16px 0px 50px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footermenu {
+  display: flex;
+}
+
+#footermenu p {
+  padding-right: 24px;
+}
